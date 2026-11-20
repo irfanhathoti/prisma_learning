@@ -601,6 +601,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nestjs/mapped-types@npm:^12.0.1":
+  version: 12.0.1
+  resolution: "@nestjs/mapped-types@npm:12.0.1"
+  peerDependencies:
+    "@nestjs/common": ^10.0.0 || ^11.0.0 || ^12.0.0
+    class-transformer: ^0.4.0 || ^0.5.0
+    class-validator: ^0.13.0 || ^0.14.0 || ^0.15.0
+    reflect-metadata: ^0.1.12 || ^0.2.0
+  peerDependenciesMeta:
+    class-transformer:
+      optional: true
+    class-validator:
+      optional: true
+  checksum: 10c0/df8bea0bbfc1f44a84f7f96569f43e1874a7eb85683229ab573a67ed86898ca28eea924a8266b1d5f93ed1ee6ad0b0bb3f13da2443aa81ca88c73632dcc5b4a7
+  languageName: node
+  linkType: hard
+
 "@nestjs/mau@npm:^0.2.6":
   version: 0.2.9
   resolution: "@nestjs/mau@npm:0.2.9"
@@ -1629,6 +1646,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/validator@npm:^13.15.3":
+  version: 13.15.10
+  resolution: "@types/validator@npm:13.15.10"
+  checksum: 10c0/3e2e65fcd37dd6961ca3fd0535293d0c42f5911dc3ca44b96f458835e6db2392b678ccbb0c9815d8c0a14e653439e6c62c7b8758a6cd1d6e390551c9e56618ac
+  languageName: node
+  linkType: hard
+
 "@visx/curve@npm:4.0.1-alpha.0":
   version: 4.0.1-alpha.0
   resolution: "@visx/curve@npm:4.0.1-alpha.0"
@@ -2231,6 +2255,24 @@ __metadata:
   version: 3.0.0
   resolution: "chownr@npm:3.0.0"
   checksum: 10c0/43925b87700f7e3893296c8e9c56cc58f926411cce3a6e5898136daaf08f08b9a8eb76d37d3267e707d0dcc17aed2e2ebdf5848c0c3ce95cf910a919935c1b10
+  languageName: node
+  linkType: hard
+
+"class-transformer@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "class-transformer@npm:0.5.1"
+  checksum: 10c0/19809914e51c6db42c036166839906420bb60367df14e15f49c45c8c1231bf25ae661ebe94736ee29cc688b77101ef851a8acca299375cc52fc141b64acde18a
+  languageName: node
+  linkType: hard
+
+"class-validator@npm:^0.15.1":
+  version: 0.15.1
+  resolution: "class-validator@npm:0.15.1"
+  dependencies:
+    "@types/validator": "npm:^13.15.3"
+    libphonenumber-js: "npm:^1.11.1"
+    validator: "npm:^13.15.22"
+  checksum: 10c0/bc030e0118d79a5fc2d053dfd4c7475092dd159222eafe946c2b01d7ff22a0a8075c8713a96239a3db536ff2a18e18d791c3a6bfabd66dbac077f7d3fd950402
   languageName: node
   linkType: hard
 
@@ -3602,6 +3644,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"libphonenumber-js@npm:^1.11.1":
+  version: 1.13.16
+  resolution: "libphonenumber-js@npm:1.13.16"
+  checksum: 10c0/72bf6b0246c538e3207e573814cd7802259d604b62be5ac3fb7a22bf712823b4ac2d3b365266524c564b5b2d904725ea93133d1007cf29a168172fec23a0a9cd
+  languageName: node
+  linkType: hard
+
 "lightningcss-android-arm64@npm:1.33.0":
   version: 1.33.0
   resolution: "lightningcss-android-arm64@npm:1.33.0"
@@ -4036,6 +4085,7 @@ __metadata:
     "@nestjs/common": "npm:^12.0.1"
     "@nestjs/config": "npm:^12.1.1"
     "@nestjs/core": "npm:^12.0.1"
+    "@nestjs/mapped-types": "npm:^12.0.1"
     "@nestjs/mau": "npm:^0.2.6"
     "@nestjs/observe": "npm:^0.1.8"
     "@nestjs/platform-express": "npm:^12.0.1"
@@ -4049,6 +4099,8 @@ __metadata:
     "@types/pg": "npm:^8.23.1"
     "@types/supertest": "npm:^7.0.0"
     "@vitest/coverage-v8": "npm:^4.1.2"
+    class-transformer: "npm:^0.5.1"
+    class-validator: "npm:^0.15.1"
     dotenv: "npm:^18.0.10"
     oxlint: "npm:^1.58.0"
     pg: "npm:^8.23.1"
@@ -5479,6 +5531,13 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/71b861de928fd5533b03fc4d84c619c07602f176d2bc6b12c5c80b2a6e889574c4126c843dd0771ce450bbb29566ca6df13d5b538ce5e4c39c2fccfb7623cf4e
+  languageName: node
+  linkType: hard
+
+"validator@npm:^13.15.22":
+  version: 13.15.35
+  resolution: "validator@npm:13.15.35"
+  checksum: 10c0/1958ebcad578128d154853a2b9bf5b95e7738dcc7d1d065e50a969812272312ec379dcaf375b9d7545e04a71de6755f60f5a4b49c1405737a9c80e11da297eef
   languageName: node
   linkType: hard
 
